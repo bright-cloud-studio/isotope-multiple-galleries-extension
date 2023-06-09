@@ -3,5 +3,5 @@
 
 ClassLoader::addClasses(array
 (
-	'Bcs\Model\Product\StandardExtended' 		=> 'system/modules/isotope_multiple_galleries_extension/library/Bcs/Model/Product/StandardExtended.php'
+	'Bcs\Model\Product\Standard' 		=> 'system/modules/isotope_multiple_galleries_extension/library/Bcs/Model/Product/Standard.php'
 ));
