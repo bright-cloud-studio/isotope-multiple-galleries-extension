@@ -43,6 +43,7 @@ use Isotope\Model\ProductCollectionItem;
 use Isotope\Model\ProductPrice;
 use Isotope\Model\ProductType;
 use Isotope\Template;
+use Isotope\Model\Product\AbstractProduct;
 
 /**
  * Standard implementation of an Isotope product.
