@@ -1,6 +1,6 @@
 <?php
 
-namespace IsotopeStandardExtended;
+namespace Bcs\Model\Product;
 
 use Contao\ContentElement;
 use Contao\Database;
