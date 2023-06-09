@@ -1,0 +1,37 @@
+{
+    "name":"bright-cloud-studio/isotope-multiple-galleries-extension",
+    "description":"Extends Isotope's 'getGalleries' function within the Product Reader module to allow choosing which Isotope Gallery to use instead of the selected Isotope Gallery within the Product Reader module.",
+    "homepage": "http://brightcloudstudio.com/",
+    "keywords":["contao", "isotope", "galleries", "extension", "bright", "cloud", "studio"],
+    "type":"contao-module",
+    "license":"LGPL-3.0-or-later",
+    "authors":[
+        {
+            "name":"Bright Cloud Studio",
+            "homepage":"https://brightcloudstudio.com"
+        }
+    ],
+    "require":{
+        "php": "^7.2 || ^8.0",
+        "contao/core-bundle": "^4.13",
+        "isotope/isotope-core": "^2.8"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bcs\\": [
+                "system/modules/isotope_multiple_galleries_extension/library/Bcs"
+            ]
+        }
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "system/modules/isotope_multiple_galleries_extension": "system/modules/isotope_multiple_galleries_extension"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
