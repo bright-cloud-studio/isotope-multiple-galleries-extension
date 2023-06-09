@@ -516,7 +516,7 @@ class Standard extends AbstractProduct implements WeightAggregate, IsotopeProduc
         $currentGallery          = null;
         $objTemplate->getGallery = function ($strAttribute, $isoGalleryId=null) use ($objProduct, $arrConfig, &$currentGallery) {
 
-            if(!is_null($isoGalleryId)
+            if(!is_null($isoGalleryId))
                 $arrConfig['gallery'] = $isoGalleryId;
             
             if (null === $currentGallery
