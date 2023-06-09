@@ -35,6 +35,8 @@ use Isotope\Model\ProductPrice;
 use Isotope\Model\ProductType;
 use Isotope\Template;
 
+use Isotope\Model\Product\AbstractProduct;
+
 /** Extends Isotope's default Standard class */
 class Standard extends AbstractProduct implements WeightAggregate, IsotopeProductWithOptions
 {
