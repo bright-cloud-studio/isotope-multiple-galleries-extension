@@ -36,7 +36,7 @@ use Isotope\Model\ProductType;
 use Isotope\Template;
 
 /** Extends Isotope's default Standard class */
-class StandardExtended extends Standard implements WeightAggregate, IsotopeProductWithOptions
+class Standard extends AbstractProduct implements WeightAggregate, IsotopeProductWithOptions
 {
   /**
      * Generate a product template
