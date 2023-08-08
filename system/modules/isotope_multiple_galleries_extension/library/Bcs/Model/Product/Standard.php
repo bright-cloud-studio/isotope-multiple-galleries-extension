@@ -49,7 +49,7 @@ use Isotope\Template;
 /**
  * Standard implementation of an Isotope product.
  */
-class Standard extends AbstractProduct implements WeightAggregate, IsotopeProductWithOptions
+class StandardBcs extends AbstractProduct implements WeightAggregate, IsotopeProductWithOptions
 {
 
     /**
