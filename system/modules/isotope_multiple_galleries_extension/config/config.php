@@ -1,3 +1,3 @@
 <?php
 
-\Isotope\Model\Product::registerModelType('standard', 'Bcs\Model\Product\StandardBcs');
+//\Isotope\Model\Product::registerModelType('standard', Bcs\Model\Product\StandardBcs);
