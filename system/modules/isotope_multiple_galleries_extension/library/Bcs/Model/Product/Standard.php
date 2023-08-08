@@ -39,6 +39,8 @@ use Isotope\Isotope;
 use Isotope\Model\Attribute;
 use Isotope\Model\Gallery;
 use Isotope\Model\Gallery\Standard as StandardGallery;
+use Isotope\Model\Product;
+use Isotope\Model\Product\Standard;
 use Isotope\Model\ProductCollectionItem;
 use Isotope\Model\ProductPrice;
 use Isotope\Model\ProductType;
